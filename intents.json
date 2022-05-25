@@ -1,0 +1,108 @@
+{"intents": [
+
+  {"tag": "greetings",
+    "patterns":  ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+    "responses": ["Namaste", "Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+  },
+
+  {"tag": "goodbye",
+    "patterns":  ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+    "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+  },
+
+  {"tag": "thanks",
+    "patterns":  ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+
+  {"tag": "no-answer",
+    "patterns":  ["      " , "lorem ipsum"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "name",
+  "patterns":  ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Twilight","I'm Twilight","I'm Twilight your virtual assistant"]
+  },
+
+  {"tag": "options",
+    "patterns":  ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I can guide you through courses, fees, exams structure, etc. of the college",
+                  "Offering support for courses, fees, exam structure, etc. of the college"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["There are several courses available in the college. Some of the famous courses provided here are: \n1. B.Tech in Computer Science\n2. BBA \n3. Hotel Management"]
+  },
+
+  {"tag": "courseDuration",
+  "patterns": ["how long will be course", "how long will it take to complete course"],
+  "responses": ["Our college offers 4 year B.Tech Course, 3 year BBA Course & 3 year Hotel Management Course"]
+  },
+
+  {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Chandigarh University is located in Gharuan, Mohali"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4-5 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["The students needs to have more than 50% aggregate in their class 12th.\n Apart from that they can give CUCET exam to get scholarship."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There are five classes each day. The classes run from 9:30 a.m to 04:20 p.m ."]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["The classes run both in online and offline mode./nThe college has collaborated with blackboard LMS."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are two mid semester exams and one end semester exams.\nThe internal and external marks ratio is 40:60 for theory subjects and 60:40 for lab subjects."]
+  },
+
+  {"tag": "helpdesk",
+  "patterns": ["How can we contact you?","what is your helpline number/email?","what "],
+  "responses": ["Student Helpline Number - 18002571800\nMail id - admissions@cumail.in"]
+  },
+
+  {"tag": "scholarship",
+    "patterns": ["How can I get scholarship?","Is there any scholarship provided to students?"],
+    "responses": ["Yes. College provides scholarship to meritorious students.\nThe students need to give CUCET exam to avail scholarships.\nScholarships are also provided on the basis of Class 12th marks, JEE marks or through sports quota."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly fest like CU fest, techinvent, and various festival celebrations. \n Also our college has basketball court, badminton court, sports complex and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discussion room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["Course B.Tech CSE \nTuition Fees -> Rs. 95000 per semester \nCourse BBA \nTuition Fees -> Rs. 61000 per semester \nCourse Hotel Management \nTuition Fees -> Rs. 58500 per semester \nHostel Fees -> Rs. 90000 per year"]
+  },
+  
+  {"tag": "placements",
+    "patterns": ["What is the placement record of the college","highest placement offered"],
+    "responses": ["The college is having an excellent record in terms of placements\n Highest offered is 52LPA\n Highest offered in management is 28LPA"]
+  }
+]}
